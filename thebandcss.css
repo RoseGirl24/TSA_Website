@@ -1,0 +1,127 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #333;
+  color:white;
+}
+
+.inner {
+	background-color:white;
+	color:black;
+}
+
+.cover-container {
+  max-width: 42em;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.masthead-brand {
+  margin-bottom: 0;
+}
+
+@media (min-width: 48em) {
+  .masthead-brand {
+    float: left;
+  }
+  .nav-masthead {
+    float: right;
+  }
+}
+
+.myimage {
+  /*background-size: cover;*/
+  background-image: url("https://lh3.googleusercontent.com/-vY6ip1mIwQh5KXvAlMb3shAnmgNFxIUlnzufOtA9KgycP0HtK9R9L6FaFkfsaQksuUZAAqFVqGFf1y9Algq3__C_aZ5bb2IuQ-qDZsWA7x0eTeYAF-yB8dI0ttZ3ixXEHfVTIDzzXZjTtPXZNNbfOGDHfPn3RYi2zd_HlUjJykrDTGLilbZ8vXzscOIsiylz0jHjhL7sCGry6EiwsyERTL7zWt-RM4WCarlMLajSlMLPgKru8BGQ6FYY3aL6qciHRrhqAntjtm7IoHz6Lq5OtHu_DUhDcFAoYw4XHMcXPZ2eMZMIIR2sE_0gU_gn-EsmWHx2MRfB2rlbf45Vjm2bMiGtyf4IEPI6rer62P6QNB2iGRt-_aAh3uRTu1qbEg7Y-IdLWLqF7u-pXjUZYgZsFBKEzjHdkJXPWkMBC79C-kcT_ImMsqVzetbqeADYc32NgmZ8IycUsDYGSHw-ZjUnh3S73b8NM17pTW0rRLzS406HY7OwZHywMRn_7pweKuq3TTo58ESo5tpJdCWz_yIWMJY9-ZzuPfYzDU3JRUpuhDYpFRcFYmZx7xBmb1HiSl0ZttGsDwVK-o1tWzZksyuCQyALkZhrqscELN9zuKzQV_J6RbC3emqqXPick2uMWmH2xWHvlNFrA_1yKaXJ4o58kxv=w730-h426-no");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* In case phones do not support background-attachment: fixed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.navbar {
+  height: 50px;
+  background-color: black;
+  border: none;
+  color: white;
+  z-index: 100;
+  transition: background-color 1s ease 0s;
+}
+
+#navbar-brand {
+  text-decoration: none !important;
+  color: gray;
+  font-family: 'Rock Salt', cursive;
+  padding-top:8px;
+  padding-right:10px;
+}
+
+nav a {
+	text-decoration: none !important;
+	color: gray;
+}
+
+.navbar-brand {
+ padding-top: 1.0rem;
+}
+
+#thebandhead {
+	font-family: 'Rock Salt', cursive;
+	padding-top: 75px;
+}
+
+#groupshot {
+	padding-bottom:20px;
+	padding-top: 50px;
+}
+
+#kinkoind {
+	padding-left:260px;
+	background-image:url("https://lh3.googleusercontent.com/PNCbcNqN2Bi5GyIN7IPe07tSZKLMc1cp9DVV2VapXMrSJRtiBGCkIgSdOiMr09CgYdF-zDZSkpWr8Xa6VOH_AozaSR3LI6G0pfv1u26_3a4yRwXk6FWP8gLrfnbEXh9v8k-_vLB7pSDZHmIjQzT8iED4_6cefGHioA9Y8YrozHBtSLLVgZNbJhHAx-jC3FVRhumkMIkYDBUZryHl871HnibPLFYaXfcxRN0b3xwn2JpX7f0uu8q6WXhMTyVK2R6erax7L0BI5gJFJsEYAcDMdCCiPJNtxOO6zdXlf26-9_NGx9Q9l7VGYI3Vz2Fu6HamBN_j5vZOD_oKbgBN9eqezEL37q_ZZAjom5M3VAUPIPFw0a6u9l86VvikjCe5AzKFrn1jYZ1CXZCea3-jXvQwSb-eEmlH8eHUatP_TC1NGubuxjzIM9rAyG5vjmag7izHpXDtQ84_xB6SPyilaRyhYw59SAQtST8sZ7pdLibv67UtAKndW1QXVqkql-2kmXTYzegJ92r0fGVTsHpGhXCidL3H_fUbE3JgZNgXdNWFMwvCiIaG21jZWKanOfqxfPLIXRNlY8--2lgPtueifa48GezsrKGYiDaijpkLmUMcY5bFvETj75q-qf78PVLUIicSOkeXXSvkF5SezUyiAKfKug8w=w830-h903-no");
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size:50%;
+}
+
+#quote {
+	padding-right:200px;
+}
+
+.col-lg-12{
+	text-align:center;
+}
+

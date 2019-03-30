@@ -1,0 +1,37 @@
+h1 {
+	text-align:center;
+	font-family: 'Rubik', sans-serif;
+	color:white;
+}
+
+#div1 {
+	background-color:#967bb6
+}
+
+#div2 {
+	text-align:center;
+}
+
+p {
+	font-family: 'Rubik', sans-serif;
+	padding-left:75px;
+	padding-right:75px;
+}
+
+h3 {
+	font-family: 'Rubik', sans-serif;
+}
+
+li {
+	font-family: 'Rubik', sans-serif;
+}
+
+#div4 {
+	background-color:#71eeb8;
+	font-family: 'Rubik', sans-serif;
+}
+
+#div5 {
+	font-family:'Rubik', sans-serif;
+	text-align:center;
+}
