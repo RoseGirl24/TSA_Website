@@ -1,0 +1,63 @@
+#homejumbotron {
+	text-align:center;
+	padding-top:150px;
+	background-color:#add8e6;
+	background-image:url("https://bloximages.newyork1.vip.townnews.com/murfreesboropost.com/content/tncms/assets/v3/editorial/5/36/5366088a-4f74-11e9-bdf6-4788a22f76ab/5c999795ac037.image.png?resize=400%2C400"),url("https://bloximages.newyork1.vip.townnews.com/murfreesboropost.com/content/tncms/assets/v3/editorial/5/36/5366088a-4f74-11e9-bdf6-4788a22f76ab/5c999795ac037.image.png?resize=400%2C400");
+	background-repeat:no-repeat;
+	background-position:11% 50%, 89% 50%;
+	background-size:16%;
+	}
+	
+.jumbotron {
+	text-align:center;
+	padding-top:150px;
+	background-color:#add8e6;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+
+
+.navbar {
+	text-align:center;
+	font-family: 'Fjalla One', sans-serif;
+}
+
+h2 {
+	font-family: 'Fjalla One', sans-serif;
+}
+
+.row {
+	text-align:center;
+}
+
+.col-lg-12 {
+	text-align:center;
+	padding-left:300px;
+	padding-right:300px;
+	padding-bottom:50px;
+}
+
+#teachers {
+	padding-right:100px;
+}
+
+#guthrie {
+	padding-right:50px;
+	padding-top:20px;
+}
+
+#murphy {
+	padding-top:20px;
+}
+
+#contact {
+	padding-top:90px;
+}
+
+#coursesum {
+	padding-right:200px;
+	padding-left:200px;
+	text-align:center;
+}
+
+
